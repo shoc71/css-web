@@ -88,7 +88,7 @@
   
   .hero-banner {
     background: rgb(68, 88, 120);
-    background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    background-image: url("https://tinyurl.com/msey5y83"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
@@ -99,6 +99,7 @@
     justify-content: flex-end;
     align-items: flex-end;
     text-align: right;
+    object-fit: cover;
   }
   
   .hero-banner div {
@@ -222,23 +223,28 @@
   /* portfolio project images */
   /* TODO: Add portfolio project images here using background images*/
   .run-buddy {
-    
+    background-image: url("https://shorturl.at/54VDn");
+    object-fit: cover;
   }
   
   .led-wall {
-    
+    background-image: url("https://shorturl.at/D9MWQ");
+    object-fit: cover;
   }
   
   .react-calc {
-    
+    background-image: url("https://shorturl.at/Xo6BH");
+    object-fit: cover;
   }
   
   .pastel-puzzles {
-    
+    background-image: url("https://shorturl.at/MtYxc");
+    object-fit: cover;
   }
   
   .surf-report {
-    
+    background-image: url("https://shorturl.at/HSWzD");
+    object-fit: cover;
   }
   
   /* media queries */
