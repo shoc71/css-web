@@ -224,22 +224,27 @@
   /* TODO: Add portfolio project images here using background images*/
   .run-buddy {
     background-image: url("https://shorturl.at/54VDn");
+    object-fit: cover;
   }
   
   .led-wall {
     background-image: url("https://shorturl.at/D9MWQ");
+    object-fit: cover;
   }
   
   .react-calc {
     background-image: url("https://shorturl.at/Xo6BH");
+    object-fit: cover;
   }
   
   .pastel-puzzles {
     background-image: url("https://shorturl.at/MtYxc");
+    object-fit: cover;
   }
   
   .surf-report {
     background-image: url("https://shorturl.at/HSWzD");
+    object-fit: cover;
   }
   
   /* media queries */
@@ -278,79 +283,10 @@
     }
   }
   
-/* Media query for devices with a max-width of 768px */
+  /* TODO: add media query for a max-width of 768px */
   @media screen and (max-width: 768px) {
     header {
-        padding: 0 0 10px 0;
-        justify-content: center;
-        text-align: center;
-    }
-
-    header h1 {
-        width: 100%;
-        padding: 5px;
-        margin-bottom: 10px;
-        font-size: 12vw; /* Adjust font size for smaller screens */
-    }
-
-    header nav {
-        flex-direction: column; /* Stack navigation links vertically */
-        align-items: center;
-    }
-
-    nav a {
-        margin: 5px 0; /* Add vertical spacing between links */
-        font-size: 1.2rem; /* Adjust font size */
-    }
-
-    .hero-banner {
-        padding: 4% 6%;
-        min-height: 20vh; /* Reduced height for smaller screens */
-        text-align: center;
-        justify-content: center; /* Center content */
-    }
-
-    .hero-banner div {
-        flex: 0 0 100%; /* Ensure the content takes full width */
-    }
-
-    .page-section {
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items */
-    }
-
-    .page-section > h2 {
-        border: none;
-        border-bottom: 2px solid var(--primary); /* Adjust border for smaller screens */
-        padding-bottom: 10px;
-        margin-bottom: 15px;
-        text-align: center;
-        font-size: 6vw; /* Adjust font size */
-    }
-
-    .page-section > div {
-        flex: 0 0 100%; /* Ensure the section div takes full width */
-    }
-
-    .flex-item {
-        flex-basis: 100%; /* Make each item take the full width */
-        margin: 0.5em 0; /* Adjust margin */
-        min-height: 120px; /* Adjust height for smaller screens */
-        max-height: 120px;
-    }
-
-    .flex-item:first-child {
-        min-height: 250px; /* Larger height for the first item */
-    }
-
-    .contact address {
-        flex-direction: column; /* Stack address items vertically */
-        align-items: center; /* Center align items */
-        text-align: center;
-    }
-
-    .contact address a {
-        margin: 5px 0;
-        font-size: 1rem; /* Adjust font size */
-    }
-  }
+      padding: 0 0 10px 0;
+      justify-content: center;
+      text-align: center;
+    }}
