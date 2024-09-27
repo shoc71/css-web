@@ -88,7 +88,7 @@
   
   .hero-banner {
     background: rgb(68, 88, 120);
-    background-image: url("https://tinyurl.com/msey5y83"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    background-image: url("https://shorturl.at/iRzEQ"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
@@ -224,27 +224,22 @@
   /* TODO: Add portfolio project images here using background images*/
   .run-buddy {
     background-image: url("https://shorturl.at/54VDn");
-    object-fit: cover;
   }
   
   .led-wall {
     background-image: url("https://shorturl.at/D9MWQ");
-    object-fit: cover;
   }
   
   .react-calc {
     background-image: url("https://shorturl.at/Xo6BH");
-    object-fit: cover;
   }
   
   .pastel-puzzles {
     background-image: url("https://shorturl.at/MtYxc");
-    object-fit: cover;
   }
   
   .surf-report {
     background-image: url("https://shorturl.at/HSWzD");
-    object-fit: cover;
   }
   
   /* media queries */
@@ -283,4 +278,78 @@
     }
   }
   
-  /* TODO: add media query for a max-width of 768px */
+  /* Media query for devices with a max-width of 768px */
+@media screen and (max-width: 768px) {
+  header {
+    padding: 0 0 10px 0;
+    justify-content: center;
+    text-align: center;
+  }
+
+  header h1 {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 12vw; 
+  }
+
+  header nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    margin: 5px 0; 
+    font-size: 1.2rem;
+  }
+
+  .hero-banner {
+    padding: 4% 6%;
+    min-height: 20vh; 
+    text-align: center;
+  }
+
+  .hero-banner div {
+    flex: 0 0 100%;
+  }
+
+  .page-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .page-section > h2 {
+    border: none;
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 6vw;
+  }
+
+  .page-section > div {
+    flex: 0 0 100%;
+  }
+
+  .flex-item {
+    flex-basis: 100%; 
+    margin: 0.5em 0; 
+    min-height: 120px;
+    max-height: 120px;
+  }
+
+  .flex-item:first-child {
+    min-height: 250px;
+  }
+
+  .contact address {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact address a {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+}
